@@ -1,11 +1,10 @@
 == Confluent Environment
 
-*Based tairangroup/hadoop:latest*
+*Based gudaoxuri/java:latest*
 
 === Features
 
 * SSH server & client ( Port: 22 User: root Password: 123456 )
-* Hadoop 2.7.x
 * Confluent 4.x
 
 === Examples
@@ -66,6 +65,5 @@ example:
 | Port | Remark
 
 | 22 | SSH Port
-
 | 9092 | Kafka Service Port
 |===
